@@ -1,0 +1,65 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-image: url(https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(241, 155, 155);
+    opacity: 0.95;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.home_content {
+    width: 50%;
+    font-size: 1rem;
+    font-size: large;
+    margin: auto;
+    box-shadow: 0px 10px rgb(70, 53, 53);
+    text-shadow: 0px 2px rgb(173, 77, 44);
+}
+
+.menu_content {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 1fr/1fr 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    text-shadow: 2px 1px rgb(79, 137, 187);
+}
+
+button {
+    border-radius: 10px;
+    background-color: rgb(226, 197, 237);
+    font-size: large;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid rgb(226, 197, 237);
+    margin-right: 10px;
+}
+
+button:hover {
+    border: 2px solid rgb(231, 130, 130);
+    background-color: rgb(231, 130, 130);
+    transition: 0.75s;
+}
